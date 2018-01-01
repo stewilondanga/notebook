@@ -4,7 +4,15 @@ function storeUserScribble(id) {
 		localStorage.setItem('userScribble',scribble);
 }
 
+function getUserScribble() {
+    if ( localStorage.getItem('userScribble')) {
+      var scribble = localStorage.getItem('userScribble');
+    }
+    else {
+      var scribble01 = 'You can scribble directly on this sticky... and I will also remember your message the next time you visit my blog!';
+    }
 
+		
 
 
 var navigate = (function() {
