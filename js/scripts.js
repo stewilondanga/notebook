@@ -15,8 +15,10 @@ function getUserScribble() {
 		document.getElementById('scribble01').innerHTML = scribble01;
  }
 
- 
-
+ function clearLocal() {
+	 clear: localStorage.clear();
+	 return false;
+ }
 
 var navigate = (function() {
 	$('.dd').toggle();
