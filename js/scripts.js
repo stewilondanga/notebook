@@ -12,7 +12,10 @@ function getUserScribble() {
       var scribble01 = 'You can scribble directly on this sticky... and I will also remember your message the next time you visit my blog!';
     }
 
-		
+		document.getElementById('scribble01').innerHTML = scribble01;
+ }
+
+ 
 
 
 var navigate = (function() {
