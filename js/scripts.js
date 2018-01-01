@@ -1,3 +1,9 @@
+function storeUserScribble(id) {
+    var scribble01 = document.getElementById('scribble01').innerHTML;
+
+		
+
+
 var navigate = (function() {
 	$('.dd').toggle();
 	$('.dd_btn').click(function() {
