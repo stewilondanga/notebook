@@ -11,6 +11,16 @@ pre{
   height: 30px;
 }
 
+input {
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 1em;
+  border-bottom: 3px solid black;
+  font-family: verdana;
+}
+
 
 
     h1 {
