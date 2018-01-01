@@ -1,7 +1,10 @@
 function storeUserScribble(id) {
     var scribble01 = document.getElementById('scribble01').innerHTML;
 
-		
+		localStorage.setItem('userScribble',scribble);
+}
+
+
 
 
 var navigate = (function() {
